@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+
+    <color name="bg_color">#f0f0f0</color>
+
+    <color name="goldden">#FFB90F</color>
+
+    <color name="full_transparent">#00000000</color>
+    <color name="toast_color">#aa000000</color>
+    <color name="half_transparent">#9000</color>
+
+    <color name="color_light_blue">#00DDB6</color>
+    <color name="txt_color">#48495F</color>
+    <color name="item_bg">#FFFFFF</color>
+    <color name="bg">#F0F0F0</color>
+    <color name="spinner_bg">#333244</color>
+    <color name="new_text_color">#555771</color>
+    <color name="white_text_color">#F0F0F0</color>
+    <color name="gray_color">#4b4b58</color>
+    <color name="hard_color">#48495f</color>
+    <color name="clickspan_color">#00ddb6</color>
+    <color name="dull_blue">#3B4BBF</color>
+
+
+    <color name="actionbar_separator">#50f0f0f0</color>
+    <color name="actionbar_title">#ffffff</color>
+    <color name="actionbar_Left_text">#999999</color>
+    <color name="actionbar_right_text">#a3c3f0</color>
+    <color name="actionbar_background_start">#3A5FCD</color>
+    <color name="actionbar_background_end">#3A5FCD</color>
+    <color name="actionbar_background_item_pressed_start">#FF7F00</color>
+    <color name="actionbar_background_item_pressed_end">#EE7600</color>
+
+    <color name="str_color_gray">#999999</color>
+    <color name="str_color_black">#333333</color>
+    <color name="item_seperate_line">#eeeeee</color>
+
+
+    <!-- 覆盖颜色 -->
+    <color name="bgColor_overlay">#60000000</color>
+    <color name="bgColor_overlay_black">#95000000</color>
+    <!-- 窗口背景颜色 -->
+    <color name="bgColor_svprogressdefaultview">@android:color/white</color>
+    <!-- 标题颜色 -->
+    <color name="textColor_svprogresshuddefault_msg">#000000</color>
+    <color name="roundColor_svprogresshuddefault">#e5e5e5</color>
+    <color name="roundProgressColor_svprogresshuddefault">@android:color/black</color>
+
+    <!-- 窗口背景颜色 -->
+    <color name="bgColor_alertview_alert">#f8f8f8</color>
+    <color name="bgColor_alertview_alert_start">#f0f0f0</color>
+    <!-- 标题颜色 -->
+    <color name="textColor_alert_title">#333333</color>
+    <color name="textColor_actionsheet_title">#8f8f8f</color>
+    <!-- 消息颜色 -->
+    <color name="textColor_alert_msg">#666666</color>
+    <color name="textColor_actionsheet_msg">#8f8f8f</color>
+    <!-- 线条颜色 -->
+    <color name="bgColor_divier">#d7d7db</color>
+    <!-- 取消按钮颜色 -->
+    <color name="textColor_alert_button_cancel">#007aff</color>
+    <!-- 高亮按钮颜色 -->
+    <color name="textColor_alert_button_destructive">#ff3b30</color>
+    <!-- 普通按钮文字颜色 -->
+    <color name="textColor_alert_button_others">#007aff</color>
+    <!-- 点击颜色 -->
+    <color name="bgColor_alert_button_press">#EAEAEA</color>
+    <!-- actionsheet模式的取消按钮背景颜色 -->
+    <color name="bgColor_actionsheet_cancel_nor">#ffffff</color>
+
+    <color name="color_item_normal">#ffffff</color>
+    <color name="color_item_press">#eeeeee</color>
+
+</resources>

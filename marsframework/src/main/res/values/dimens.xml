@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="actionbar_height">45dip</dimen>
+    <dimen name="actionbar_item_height">45dip</dimen>
+    <dimen name="actionbar_item_width">45dip</dimen>
+
+    <dimen name="radius_alertview">15px</dimen>
+    <dimen name="spacing_medium">8dp</dimen>
+    <dimen name="radio_button_conner_radius">5dp</dimen>
+    <dimen name="radio_button_stroke_border">1dp</dimen>
+    <dimen name="cpb_stroke_width">4dp</dimen>
+    <dimen name="WheelItemTextSize">24sp</dimen>
+    <dimen name="WheelItemSpace">12dp</dimen>
+    <dimen name="WheelIndicatorSize">2dp</dimen>
+    <dimen name="WheelMargins">8dp</dimen>
+
+    <!-- 输入框设置：字体大小，高度 -->
+    <dimen name="textSize_edittext">15sp</dimen>
+    <dimen name="height_edittext">38dp</dimen>
+
+    <!-- 标题文字大小 -->
+    <dimen name="textSize_alert_title">20sp</dimen>
+    <dimen name="textSize_actionsheet_title">14sp</dimen>
+    <!-- 标题文字高度 -->
+    <dimen name="height_alert_title">60dp</dimen>
+    <dimen name="height_actionsheet_title">40dp</dimen>
+    <!-- 消息文字大小 -->
+    <dimen name="textSize_alert_msg">15sp</dimen>
+    <dimen name="textSize_actionsheet_msg">14sp</dimen>
+    <!-- 消息距离底部间距 -->
+    <dimen name="marginLeft_alert_msg">10dp</dimen>
+    <dimen name="marginBottom_alert_msg">25dp</dimen>
+    <dimen name="marginBottom_actionsheet_msg">14dp</dimen>
+    <!-- 窗口模式左右两边到屏幕的间距 -->
+    <dimen name="margin_alert_left_right">40dp</dimen>
+    <dimen name="margin_actionsheet_left_right">10dp</dimen>
+    <!-- 线条粗细 -->
+    <dimen name="size_divier">1dp</dimen>
+    <!-- 按钮的高度 -->
+    <dimen name="height_alert_button">40dp</dimen>
+    <!-- 按钮文字大小 -->
+    <dimen name="textSize_alert_button">16sp</dimen>
+
+
+    <!-- padding -->
+    <dimen name="padding_svprogresshuddefault">15dp</dimen>
+    <!-- 窗口最小宽度 -->
+    <dimen name="size_minwidth_svprogresshuddefault">120dp</dimen>
+    <!-- 图片宽高 -->
+    <dimen name="size_image_bigloading">80dp</dimen>
+    <!-- 图片宽高 -->
+    <dimen name="size_image_smallloading">60dp</dimen>
+    <!-- 圆角 -->
+    <dimen name="radius_svprogresshuddefault">25px</dimen>
+    <!-- 提示的文字大小 -->
+    <dimen name="textSize_svprogresshuddefault_msg">15sp</dimen>
+    <dimen name="margintop_svprogresshuddefault_msg">10dp</dimen>
+    <dimen name="indicator_right_padding">10dp</dimen>
+    <dimen name="indicator_corner_radius">12dp</dimen>
+    <dimen name="indicator_internal_padding">4dp</dimen>
+    <dimen name="header_footer_left_right_padding">24dp</dimen>
+    <dimen name="header_footer_top_bottom_padding">12dp</dimen>
+
+</resources>

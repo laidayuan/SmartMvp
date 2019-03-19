@@ -1,0 +1,83 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dada.marsframework" >
+
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION"/>
+    <uses-permission android:name="android.permission.BATTERY_STATS"/>
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <uses-permission android:name="android.permission.GET_TOP_ACTIVITY_INFO"/>
+    <uses-permission android:name="android.permission.REORDER_TASKS"/>
+    <!--<uses-permission android:name="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE"/>-->
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:largeHeap="true"
+        android:persistent="true">
+
+        <activity android:name=".webview.WebViewActivity"
+            android:screenOrientation="portrait" />
+
+        <activity android:name=".webview.JsWebViewActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".keeplive.OnePixelActivity"
+            android:launchMode="singleInstance"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <service android:name=".keeplive.service.HideForegroundService">
+
+        </service>
+
+        <service android:name=".keeplive.service.JobHandlerService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:exported="true"
+            >
+
+        </service>
+
+        <service android:name=".keeplive.service.LocalService">
+
+        </service>
+
+        <service android:name=".keeplive.service.RemoteService"
+            android:process=":remote">
+
+        </service>
+
+        <!-- android.permission.BIND_JOB_SERVICE -->
+
+        <!--<receiver android:name=".alive.SystemEventChangedReceiver">-->
+        <!--<intent-filter>-->
+        <!--<action android:name="android.NET.conn.CONNECTIVITY_CHANGE" />-->
+        <!--<action android:name="android.Net.wifi.WIFI_STATE_CHANGED" />-->
+        <!--<action android:name="android.net.wifi.STATE_CHANGE" />-->
+        <!--<action android:name="android.intent.action.BATTERY_CHANGED" />-->
+        <!--<action android:name="android.intent.action.BATTERY_OKAY"/>-->
+        <!--<action android:name="android.intent.action.BATTERY_LOW"/>-->
+        <!--<action android:name="android.intent.action.CONFIGURATION_CHANGED"/>-->
+
+        <!--</intent-filter>-->
+        <!--</receiver>-->
+
+
+    </application>
+
+</manifest>

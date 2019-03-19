@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--Context.getFilesDir() + /path/-->
+    <files-path name="images" path="KingAssistant/images"/>
+
+    <!--Context.getCacheDir() + /path/-->
+    <cache-path name="cacheDir" path="KingAssistant/cacheDir" />
+
+    <cache-path name="logs" path="KingAssistant/logs" />
+
+    <!--Environment.getExternalStorageDirectory() + /path/-->
+    <!-- /storage/emulated/0/Download/${applicationId}/.beta/apk-->
+    <!--external-path name="darwin_down" path="KingAssistant/download" />
+    <external-path name="darwin_cache" path="KingAssistant/cache" />
+    <external-path name="darwin_images" path="KingAssistant/images" />
+    <external-path name="darwin_logs" path="KingAssistant/logs" /-->
+
+    <!--Context.getExternalFilesDir(String) + /path/-->
+    <!--external-files-path name="expath" path="expath" /-->
+
+    <!--Context.getExternalCacheDir() + /path/-->
+    <!--external-cache-path name="excache" path="excache" /-->
+
+
+    <external-path name="name" path="KingAssistant"/>
+
+</paths>
+

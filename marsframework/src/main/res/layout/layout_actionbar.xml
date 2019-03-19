@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2010 Johan Nilsson <http://markupartist.com>
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/screen"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/actionbar_height"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:id="@+id/actionbar_home"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/actionbar_height"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal"
+        android:visibility="visible" >
+
+        <ImageView
+            android:id="@+id/actionbar_home_logo"
+            style="@style/ActionBarHomeLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/actionbar_height"
+            android:padding="0dip"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:id="@+id/actionbar_home_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/actionbar_height"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <!-- TODO: Make configurable. @color/actionbar_separator -->
+
+            <ImageButton
+                android:id="@+id/actionbar_home_btn"
+                style="@style/ActionBarHomeItem"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft = "5dp"/>
+
+            <TextView
+                android:id="@+id/actionbar_home_text"
+                android:layout_width="wrap_content"
+                android:layout_height="45dip"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dip"
+                android:gravity="center"
+                android:maxWidth="80dip"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/str_color_black"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/actionbar_home_is_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/actionbar_home_bg"
+            android:background="@mipmap/actionbar_back_indicator"
+            android:padding="0dip"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/actionbar_actions"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/actionbar_height"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="0dp"
+            android:background="@color/actionbar_separator"
+            android:orientation="horizontal"
+            android:padding="0dp" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_centerVertical="true" >
+
+            <ProgressBar
+                android:id="@+id/actionbar_progress"
+                style="@style/ActionBarProgressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:indeterminateOnly="true"
+                android:paddingRight="7dip"
+                android:visibility="gone" />
+
+            <com.dada.marsframework.widget.actionbar.ScrollingTextView
+                android:id="@+id/actionbar_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@id/actionbar_progress"
+                android:ellipsize="marquee"
+                android:gravity="center"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:paddingLeft="15dip"
+                android:paddingRight="15dip"
+                android:scrollHorizontally="true"
+                android:text="@string/app_name"
+                android:textColor="@color/str_color_black"
+                android:textSize="16dip"
+                android:maxLines="2"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:layout_alignParentBottom="true"
+            android:background="#dddddd" />
+    </RelativeLayout>
+
+</RelativeLayout>

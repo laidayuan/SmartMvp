@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">marsframework</string>
+    <string name="app_desc">marsframework</string>
+    <string name="description">marsframework</string>
+
+    <string name="string_alert_sure">确定</string>
+
+    <string name="string_alert_back">返回</string>
+    <string name="string_alert_tip">提示</string>
+
+    <string name="string_alert_sslerror">当前的网页证书错误，是否继续加载？</string>
+
+
+</resources>
